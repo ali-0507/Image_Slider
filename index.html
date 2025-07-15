@@ -1,0 +1,38 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Slider</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-1GzD5Z2u0w/8u3WXNjWZLVL3mCq3x/5D8h0EkWhEof2RfUuRqq+1Wd2IgPvUovmpwRcbUq9DhV7WVg03yAxQug==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body class="main">
+    <h1 class="main-head">Sky Whispers</h1>
+
+<div class="slide-container">
+
+    <div class="arrow">
+        <button id="prevBtn" class="btn btn-outline-light btn-sm" type="submit">Previous</button>
+    </div>
+
+        <div class="card" id="slideCard">
+            <div class="img"><img id="sliderImage" src="penguin.jpeg" alt="penguin"/></div>
+            <div class="card-body">
+                <div class="card-title">
+                    <h2 id="cardTitle">Penguin</h2>
+                    <p id="cardText">Let's know more</p>
+                </div>
+            </div>
+        </div>
+
+    <div class="arrow">
+        <button id="nextBtn" class="btn btn-outline-light btn-sm" type="submit">Next</button>
+    </div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+<script src="app.js"></script>
+</body>
+</html>
